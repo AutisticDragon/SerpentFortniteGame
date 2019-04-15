@@ -13,9 +13,9 @@ class SerpentFortniteGame(Game, metaclass=Singleton):
 
         kwargs["input_controller"] = InputControllers.NATIVE_WIN32  # <= Specify your InputController backend here
 
-        kwargs["window_name"] = "Battlefield™ V"
+        kwargs["window_name"] = "Fortnite  " # Do Not Change
 
-        kwargs["executable_path"] = "E:/EUOrgin/Battlefield V/bfv.exe"
+        kwargs["executable_path"] = "Your Fortnite EXE File"
 
         super().__init__(**kwargs)
 
